@@ -5,7 +5,7 @@ import SearchBar from "./components/search_bar";
 import VideoList from "./components/video_list";
 import VideoDetail from "./components/video_detail";
 import YTSearch from "youtube-api-search";
-const API_KEY = "AIzaSyD6KnvW__GP4i83DollAbA3hVr8mL2S-bs";
+const API_KEY = "AIzaSyArrbmc9ytquQqsumM8K12R8rl7aVcP2wo";
 
 YTSearch({key: API_KEY, term:"elonmusk"},function(data){
   console.log(data);
